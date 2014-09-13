@@ -86,15 +86,15 @@ Before running run_analysis.r, the following steps must be undertaken:
 
 The run_analysis.r script runs through the following steps:
 
-1. Reads the training and test datasets from the /train and /test folders.
+1. Read the training and test datasets from the /train and /test folders.
 
-2. Reads the feature and activity mapping data to allow for decoding of variables and activity labels respectively.
+2. Read the feature and activity mapping data to allow for decoding of variables and activity labels respectively.
 
 3. Merge the training and test datasets into 3 variables: `X`, `y` and `subject`, which corresponds to /train/X_train.txt, /test/X_test.txt; /train/y_train.txt, /test/y_test.txt; and /train/subject_train.txt, /test/subject_test.txt respectively.
 
-4. Extract only the signals that correspond to mean and standard deviation measurements.  This is indicated by the features containing mean() and std() in their feature labels.  Note that the meanFreq() variables are not considered, since we do not require the number of rows used to compute each mean.
+4. Extract only the signals that correspond to mean and standard deviation measurements.  This is indicated by mean() and std() in the label names.  Note that the meanFreq() variables are not considered for this project, since we do not require the number of rows used to compute each mean.
 
-5. Label the data set with descriptive variable names.  The prefix f and t are changed to Freq and Time respectively, and other formatting inconsistencies are cleared up.  This will allow other researchers to easily discern the definition of each variable.
+5. Label the data set with descriptive variable names.  The prefix `f` and `t` are changed to Freq and Time respectively, and other formatting inconsistencies are cleared up.  This will allow other researchers to easily discern the definition of each variable.
 
 6. Label the dataset with the activity names using the activity label mapping file.
 
@@ -102,4 +102,4 @@ The run_analysis.r script runs through the following steps:
 
 8. The final tidied dataset is placed in the `data` variable.
 
-9. A second tidied dataset is generated in the `meanData` variable by obtaining the average of each measurement variable for each activity and each subject.  This dataset is then written to the file meanData.txt.
+9. A second tidied dataset is generated in the `meanData` variable by obtaining the average of each measurement variable for each activity and each subject.  This dataset is then written to the file 'meanData.txt'.
