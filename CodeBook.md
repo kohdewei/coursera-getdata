@@ -77,4 +77,3 @@ Gravity Accelerometer             |  TimeGravityAccMeanX      |
                                   |  TimeGravityAccStdZ       |
 Gravity Accelerometer (Mag)       |  TimeGravityAccMagMean    |
                                   |  TimeGravityAccMagStd     |
-----------------------------------|---------------------------|-------------------------
