@@ -35,46 +35,46 @@ The variable names can be expressed in regular expression as follows, with the a
 
 The full set of measurement variables are as follows, categorised by signal type and domain:
 
-Signal                              Time Domain               Frequency Domain
------------------------------------ ------------------------- -------------------------
-Body Gyroscope                      TimeBodyGyroMeanX         FreqBodyGryoMeanX
-                                    TimeBodyGyroMeanY         FreqBodyGryoMeanY
-                                    TimeBodyGyroMeanZ         FreqBodyGryoMeanZ
-                                    TimeBodyGyroStdX          FreqBodyGyroStdX
-                                    TimeBodyGyroStdY          FreqBodyGyroStdY
-                                    TimeBodyGyroStdZ          FreqBodyGyroStdZ
-Body Gyroscope (Mag)                TimeBodyGyroMagMean       FreqBodyGryoMagMean
-                                    TimeBodyGyroMagStd        FreqBodyGyroMagStd
-Body Gyroscope Jerk                 TimeBodyGryoJerkMeanX
-                                    TimeBodyGryoJerkMeanY
-                                    TimeBodyGryoJerkMeanZ
-                                    TimeBodyGryoJerkStdX
-                                    TimeBodyGryoJerkStdY
-                                    TimeBodyGryoJerkStdZ
-Body Gyroscope Jerk (Mag)           TimeBodyGyroJerkMagMean   FreqBodyGyroJerkMagMean
-                                    TimeBodyGyroJerkMagStd    FreqBodyGyroJerkMagStd
-Body Accelerometer                  TimeBodyAccMeanX          FreqBodyAccMeanX
-                                    TimeBodyAccMeanY          FreqBodyAccMeanY
-                                    TimeBodyAccMeanZ          FreqBodyAccMeanZ
-                                    TimeBodyAccStdX           FreqBodyAccStdX
-                                    TimeBodyAccStdY           FreqBodyAccStdY
-                                    TimeBodyAccStdZ           FreqBodyAccStdZ
-Body Accelerometer (Mag)            TimeBodyAccMagMean        FreqBodyAccMagMean
-                                    TimeBodyAccMagStd         FreqBodyAccMagStd
-Body Accelerometer Jerk             TimeBodyAccJerkMeanX      FreqBodyAccJerkMeanX
-                                    TimeBodyAccJerkMeanY      FreqBodyAccJerkMeanY
-                                    TimeBodyAccJerkMeanZ      FreqBodyAccJerkMeanZ
-                                    TimeBodyAccJerkStdX       FreqBodyAccJerkStdX
-                                    TimeBodyAccJerkStdY       FreqBodyAccJerkStdY
-                                    TimeBodyAccJerkStdZ       FreqBodyAccJerkStdZ
-Body Accelerometer Jerk (Mag)       TimeBodyAccJerkMagMean    FreqBodyAccJerkMagMean
-                                    TimeBodyAccJerkMagStd     FreqBodyAccJerkMagStd
-Gravity Accelerometer               TimeGravityAccMeanX
-                                    TimeGravityAccMeanY
-                                    TimeGravityAccMeanZ
-                                    TimeGravityAccStdX
-                                    TimeGravityAccStdY
-                                    TimeGravityAccStdZ
-Gravity Accelerometer (Mag)         TimeGravityAccMagMean
-                                    TimeGravityAccMagStd
------------------------------------ ------------------------- -------------------------
+Signal                            |  Time Domain              | Frequency Domain
+----------------------------------|---------------------------|-------------------------
+Body Gyroscope                    |  TimeBodyGyroMeanX        | FreqBodyGryoMeanX
+                                  |  TimeBodyGyroMeanY        | FreqBodyGryoMeanY
+                                  |  TimeBodyGyroMeanZ        | FreqBodyGryoMeanZ
+                                  |  TimeBodyGyroStdX         | FreqBodyGyroStdX
+                                  |  TimeBodyGyroStdY         | FreqBodyGyroStdY
+                                  |  TimeBodyGyroStdZ         | FreqBodyGyroStdZ
+Body Gyroscope (Mag)              |  TimeBodyGyroMagMean      | FreqBodyGryoMagMean
+                                  |  TimeBodyGyroMagStd       | FreqBodyGyroMagStd
+Body Gyroscope Jerk               |  TimeBodyGryoJerkMeanX    |
+                                  |  TimeBodyGryoJerkMeanY    |
+                                  |  TimeBodyGryoJerkMeanZ    |
+                                  |  TimeBodyGryoJerkStdX     |
+                                  |  TimeBodyGryoJerkStdY     |
+                                  |  TimeBodyGryoJerkStdZ     |
+Body Gyroscope Jerk (Mag)         |  TimeBodyGyroJerkMagMean  | FreqBodyGyroJerkMagMean
+                                  |  TimeBodyGyroJerkMagStd   | FreqBodyGyroJerkMagStd
+Body Accelerometer                |  TimeBodyAccMeanX         | FreqBodyAccMeanX
+                                  |  TimeBodyAccMeanY         | FreqBodyAccMeanY
+                                  |  TimeBodyAccMeanZ         | FreqBodyAccMeanZ
+                                  |  TimeBodyAccStdX          | FreqBodyAccStdX
+                                  |  TimeBodyAccStdY          | FreqBodyAccStdY
+                                  |  TimeBodyAccStdZ          | FreqBodyAccStdZ
+Body Accelerometer (Mag)          |  TimeBodyAccMagMean       | FreqBodyAccMagMean
+                                  |  TimeBodyAccMagStd        | FreqBodyAccMagStd
+Body Accelerometer Jerk           |  TimeBodyAccJerkMeanX     | FreqBodyAccJerkMeanX
+                                  |  TimeBodyAccJerkMeanY     | FreqBodyAccJerkMeanY
+                                  |  TimeBodyAccJerkMeanZ     | FreqBodyAccJerkMeanZ
+                                  |  TimeBodyAccJerkStdX      | FreqBodyAccJerkStdX
+                                  |  TimeBodyAccJerkStdY      | FreqBodyAccJerkStdY
+                                  |  TimeBodyAccJerkStdZ      | FreqBodyAccJerkStdZ
+Body Accelerometer Jerk (Mag)     |  TimeBodyAccJerkMagMean   | FreqBodyAccJerkMagMean
+                                  |  TimeBodyAccJerkMagStd    | FreqBodyAccJerkMagStd
+Gravity Accelerometer             |  TimeGravityAccMeanX      |
+                                  |  TimeGravityAccMeanY      |
+                                  |  TimeGravityAccMeanZ      |
+                                  |  TimeGravityAccStdX       |
+                                  |  TimeGravityAccStdY       |
+                                  |  TimeGravityAccStdZ       |
+Gravity Accelerometer (Mag)       |  TimeGravityAccMagMean    |
+                                  |  TimeGravityAccMagStd     |
+----------------------------------|---------------------------|-------------------------
