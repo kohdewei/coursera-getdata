@@ -1,8 +1,6 @@
 
 # Code Book
 
------
-
 ## Subject
 
 A unique integer representing the subject who performed the Activity for each window sample.  Its range is from 1 to 30.
